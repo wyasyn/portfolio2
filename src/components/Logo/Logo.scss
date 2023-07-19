@@ -1,0 +1,19 @@
+.cls-1 {
+    fill: #f1f1f1;
+}
+
+.logo {
+    svg {
+        -webkit-transition: all .3s ease-in;
+        -moz-transition: all .3s ease-in;
+        -ms-transition: all .3s ease-in;
+        -o-transition: all .3s ease-in;
+        transition: all .3s ease-in;
+        width: 50px;
+        &:hover {
+            .cls-1 {
+                fill: rgb(255, 255, 255);
+            }
+        }
+    }
+}

@@ -1,0 +1,24 @@
+.button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: -moz-fit-content;
+    width: fit-content;
+    background: #0F0F0F;
+    color: #fff;
+    padding: .5em 1.7em;
+    font-size: 1.7rem;
+    font-family: inherit;
+    border: 1px solid #0F0F0F;
+    cursor: pointer;
+    -webkit-transition: all 300ms ease-in-out;
+    -moz-transition: all 300ms ease-in-out;
+    -ms-transition: all 300ms ease-in-out;
+    -o-transition: all 300ms ease-in-out;
+    transition: all 300ms ease-in-out;
+    &:hover {
+        background: #fff;
+        color: #0F0F0F;
+        border: 1px solid #0F0F0F;
+    }
+}

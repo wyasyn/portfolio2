@@ -1,0 +1,35 @@
+.skills {
+    background: #f1f1f1;
+    padding: 5em 1em;
+    .title {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        font-size: 3rem;
+
+        @media screen and (min-width:48rem) {
+            font-size: 4.8rem;
+        }
+    }
+    h3 {
+        text-align: center;
+    }
+
+    .skills__content {
+        margin-top: 2em;
+        display: flex;
+        gap: 1rem;
+        align-items: center;
+        overflow-x: scroll;
+
+        &>*{
+            flex: 0 0 auto;
+        }
+        @media screen and (min-width:48rem) {
+            overflow-x: auto;
+            flex-wrap: wrap;
+            justify-content: center;
+        }
+    }
+}

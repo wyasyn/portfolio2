@@ -1,0 +1,39 @@
+.project {
+    width: 300px;
+    overflow: hidden;
+    position: relative;
+    -webkit-border-radius: 2em 0 2em 2em;
+    -moz-border-radius: 2em 0 2em 2em;
+    -ms-border-radius: 2em 0 2em 2em;
+    -o-border-radius: 2em 0 2em 2em;
+    border-radius: 2em 0 2em 2em;
+    -webkit-transition: all 300ms ease-in-out;
+    -moz-transition: all 300ms ease-in-out;
+    -ms-transition: all 300ms ease-in-out;
+    -o-transition: all 300ms ease-in-out;
+    transition: all 300ms ease-in-out;
+    img {
+        height: 360px;
+        width: 100%;
+        object-fit: cover;
+    }
+    .icons {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding: .5em 1.7em;
+        background: #272727;
+        color: #f1f1f1;
+        svg {
+            color: #f1f1f1;
+            font-size: 2.5rem;
+        }
+    }
+    &:hover {
+        -webkit-transform: scale(0.9);
+        -moz-transform: scale(0.9);
+        -ms-transform: scale(0.9);
+        -o-transform: scale(0.9);
+        transform: scale(0.9);
+    }
+}

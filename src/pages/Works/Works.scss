@@ -1,0 +1,38 @@
+.works {
+    background: #f1f1f1;
+    padding: 7em 1em;
+    .title {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        font-size: 3rem;
+
+        @media screen and (min-width:48rem) {
+            font-size: 4.8rem;
+        }
+    }
+    h3 {
+        text-align: center;
+    }
+    .project__content {
+        margin-top: 5em;
+        display: grid;
+        grid-template-columns: 1fr;
+        justify-items: center;
+        row-gap: 19rem;
+         @media screen and (min-width:48rem) {
+            grid-template-columns: 1fr 1fr;
+            column-gap: 5rem;
+            .project {
+                &:nth-child(even) {
+                    -webkit-transform: translateY(19rem);
+                    -moz-transform: translateY(19rem);
+                    -ms-transform: translateY(19rem);
+                    -o-transform: translateY(19rem);
+                    transform: translateY(19rem);
+                }
+            }
+        }
+    }
+}
