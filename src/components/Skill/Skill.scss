@@ -12,6 +12,11 @@
     -ms-border-radius: .5em .5em .5em .5em;
     -o-border-radius: .5em .5em .5em .5em;
     border-radius: .5em .5em .5em .5em;
+    -webkit-transition: all 300ms ease-in-out;
+    -moz-transition: all 300ms ease-in-out;
+    -ms-transition: all 300ms ease-in-out;
+    -o-transition: all 300ms ease-in-out;
+    transition: all 300ms ease-in-out;
     .icon {
         width: 100%;
     }
@@ -27,5 +32,12 @@
         -ms-border-radius: 0 0 .5em .5em;
         -o-border-radius: 0 0 .5em .5em;
         border-radius: 0 0 .5em .5em;
+    }
+    &:hover {
+        -webkit-transform: scale(.75);
+        -moz-transform: scale(.75);
+        -ms-transform: scale(.75);
+        -o-transform: scale(.75);
+        transform: scale(.75);
     }
 }

@@ -26,11 +26,11 @@
             column-gap: 5rem;
             .project {
                 &:nth-child(even) {
-                    -webkit-transform: translateY(19rem);
-                    -moz-transform: translateY(19rem);
-                    -ms-transform: translateY(19rem);
-                    -o-transform: translateY(19rem);
-                    transform: translateY(19rem);
+                    transform: translateY(18rem);
+                    -webkit-transform: translateY(18rem);
+                    -moz-transform: translateY(18rem);
+                    -ms-transform: translateY(18rem);
+                    -o-transform: translateY(18rem);
                 }
             }
         }
